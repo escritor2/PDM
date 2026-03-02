@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\flutter_application_1",
+    "\\flutter_application_1\\android",
+    "\\flutter_application_1\\android\\app",
+    "\\flutter_application_1\\android\\app\\src",
+    "\\flutter_application_1\\android\\app\\src\\main",
+    "\\flutter_application_1\\android\\app\\src\\main\\kotlin",
+    "\\flutter_application_1\\android\\app\\src\\main\\kotlin\\com",
+    "\\flutter_application_1\\android\\app\\src\\main\\kotlin\\com\\example",
+    "\\flutter_application_1\\android\\app\\src\\main\\kotlin\\com\\example\\flutter_application_1",
+    "\\flutter_application_1\\lib"
+  ],
+  "SelectedNode": "\\flutter_application_1\\lib\\main.dart",
+  "PreviewInSolutionExplorer": false
+}
