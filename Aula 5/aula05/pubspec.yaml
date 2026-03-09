@@ -1,4 +1,4 @@
-name: app_de_tarefas
+name: aula05
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -56,12 +56,6 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
-  fonts:
-    - family: AAA
-      fonts:
-        - asset: cu/SCRIPALT.ttf
-        - asset: cu/SCRIPTIN.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

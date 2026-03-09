@@ -48,10 +48,12 @@ class _TodoPageState extends State<TodoPage> {
         title: const Text("Lista de Tarefas"),
         actions: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 200.0),
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
             child: Text(
               "Total: ${tarefas.length}",
-              style: const TextStyle(fontSize: 26, fontStyle: FontStyle.italic, color: Color.fromARGB(255, 0, 0, 255)),
+              style: const TextStyle(
+                fontFamily: "AAA",
+                fontSize: 26, fontStyle: FontStyle.italic, color: Color.fromARGB(255, 0, 0, 255)),
             ),
           ),
         ],
@@ -69,6 +71,7 @@ class _TodoPageState extends State<TodoPage> {
                       hintText: "Digite uma tarefa...",
                       border: OutlineInputBorder(),
                     ),
+                    style: TextStyle(fontFamily: "AAA"),
                     onSubmitted: (_) => adicionarTarefa(), // Desafio 3: Enter
                   ),
                 ),
@@ -87,7 +90,7 @@ class _TodoPageState extends State<TodoPage> {
                   ? const Center( 
                       child: Text(
                         "Nenhuma tarefa adicionada",
-                        style: TextStyle(fontSize: 218, color: Color.fromARGB(255, 255, 0, 0)),
+                        style: TextStyle(fontSize: "AAA" as double, fontStyle: FontStyle.italic, color: Color.fromARGB(255, 255, 0, 0)),
                       ),
                     )
                   : ListView.builder(
