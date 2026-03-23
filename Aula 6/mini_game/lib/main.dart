@@ -12,7 +12,7 @@ class JogoApp extends StatefulWidget {
   const JogoApp({super.key});
 
   @override
-  State<JogoApp> createState() => _JogoAppState();
+  State<JogoApp> createState() => -();
 }
 
 class _JogoAppState extends State<JogoApp> {
